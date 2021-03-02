@@ -1,0 +1,54 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+
+   }
+   h1 {
+    color: #FC7E00;
+    text-align: center;
+}
+   body{
+    margin: 0;
+	font-family: sans-serif;
+	background: url(fondogam6.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+   }
+   .container-table{
+       width: 90%;
+       background: #fff;
+       margin: 50px auto;
+     box-shadow: 0 0 20px rgb(0, 0, 0);
+
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+       grid-auto-rows: 50px;
+
+   }
+   .table__title{
+       grid-column-start: 1;
+       grid-column-end: 5;
+       background: #fff;
+
+       color: #540D67;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-weight: bold;
+       font-size: 1.9em;
+   }
+   .table__header, .table__item{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: #FC2200;
+   }
+   .table__header{
+       font-weight: bold;
+       font-size: 1.5em;
+   }
+   .table__item{
+    color: #000000;
+       padding: 10px;
+       font-size: 1.2em;
+   }

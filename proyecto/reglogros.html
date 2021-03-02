@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>registro logros</title>
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+	<link rel=stylesheet href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	
+<link href="estiloreglogros.css" rel="stylesheet" type="text/css">
+<script src="reglogros.js"></script>
+	</head>
+<body>
+<form action="reglogros.php" method="post" class="formulario" onsubmit="return validar2();">
+	  <h1>Registra tus Logros</h1>
+	<div class="contenedor">
+		
+	<div class="input-contenedor">
+		<i class="fas fa-user"></i>
+		<input id="id" name="id" type="text" placeholder="Ingrese su ID">
+		
+		</div>
+		
+		<div class="input-contenedor">
+		<i class="fas fa-gamepad"></i>
+		<input id="juegos" name="juegos" type="text" placeholder="Nombre del juego">
+		
+		</div>
+		
+		<div class="input-contenedor">
+		<i class="fas fa-trophy"></i>
+		<input id="logro" name="logro" type="text" placeholder="Nombre de logro">
+		
+		</div>
+		
+		<div class="input-contenedor">
+		<i class="fas fa-star-half-alt"></i>
+		<input id="puntos" name="puntos" type="text" placeholder="Puntos por el logro">
+		
+		</div>
+		
+		<input type="submit" value="Registrate" class="button">
+		<p>   </p>
+		<center><a href="opciones.html" class="button">Regresar</a></center>
+	</div>
+	<p>   </p>
+	</form>
+</body>
+</html>

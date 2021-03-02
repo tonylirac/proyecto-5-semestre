@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>registro de juegos</title>
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+	<link rel=stylesheet href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<link href="estiloregjuegos.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+<form action="regjuegos.php" method="post" class="formulario" onsubmit="return validar1();">
+	  <h1>Registra tus Juegos</h1>
+	<div class="contenedor">
+		
+	<div class="input-contenedor">
+		<i class="fas fa-user"></i>
+		<input id="id" name="id" type="text" placeholder="Ingrese su ID">
+		
+		</div>
+		
+		<div class="input-contenedor">
+		<i class="fas fa-gamepad"></i>
+		<input id="juegos" name="juegos" type="text" placeholder="Nombre del juego">
+		
+		</div>
+		
+		<div class="input-contenedor">
+		<i class="fab fa-contao"></i>
+		<input id="clasificacion" name="clasificacion" type="text" placeholder="clasificacion del juego">
+		
+		</div>
+		
+		<div class="input-contenedor">
+		<i class="fas fa-vector-square"></i>
+		<input id="categoria" name="categoria" type="text" placeholder="categoria">
+		
+		</div>
+		
+		<input type="submit" value="Registrar" class="button">
+		<p>   </p>
+		
+		<center><a href="opciones.html" class="button">Regresar</a></center>
+	</div>
+	<p>   </p>
+	</form>
+	<script src="regjuegos.js"></script>
+</body>
+</html>

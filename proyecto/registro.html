@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>registro</title>
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+	<link rel=stylesheet href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	
+<link href="estilo_registro.css" rel="stylesheet" type="text/css">
+<script src="registro.js"></script>
+	</head>
+<body>
+<form action="registro.php" method="post" class="formulario" onsubmit="return validar();">
+	  <h1>Registrate</h1>
+	<div class="contenedor">
+		
+	<div class="input-contenedor">
+		<i class="fas fa-user"></i>
+		<input id="gamertag" name="gamertag" type="text" placeholder="Gamertag Completo">
+		
+		</div>
+		
+		<div class="input-contenedor">
+		<i class="fas fa-envelope"></i>
+		<input id="correo" name="correo" type="text" placeholder="Correo Completo">
+		
+		</div>
+		
+		<div class="input-contenedor">
+		<i class="fas fa-key icon"></i>
+		<input id="clave" name="clave" type="password" placeholder="Contraseña">
+		
+		</div>
+		
+		<input type="submit" value="Registrate" class="button">
+		<p>   </p>
+		<center><a href="opciones.html" class="button">Regresar</a></center>
+		
+	</div>
+	<p>   </p>
+	</form>
+</body>
+</html>
